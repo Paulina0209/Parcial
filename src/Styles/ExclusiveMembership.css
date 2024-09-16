@@ -1,0 +1,75 @@
+.exclusive-membership {
+  padding: 30px;
+  background-color: #f4f4f9; /* Fondo suave y elegante */
+}
+
+.membership-title {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 2rem;
+}
+
+.membership-description {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 3rem;
+  line-height: 1.6;
+  font-family: 'Roboto', sans-serif;
+}
+
+.membership-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  background-color: #ffffff;
+}
+
+.membership-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.membership-image {
+  height: 180px;
+  border-radius: 15px 15px 0 0;
+  object-fit: cover;
+}
+
+.membership-card-content {
+  padding: 20px;
+}
+
+.membership-card-title {
+  font-size: 1.5rem;
+  color: #111;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 0.5rem;
+}
+
+.membership-card-description {
+  font-size: 1rem;
+  color: #555;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+}
+
+.membership-button {
+  display: block;
+  margin: 30px auto;
+  padding: 12px 30px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.membership-button:hover {
+  background-color: #555;
+}

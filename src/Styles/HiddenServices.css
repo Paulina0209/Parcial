@@ -1,0 +1,34 @@
+/* HiddenServices.css */
+
+.hidden-services {
+    padding: 20px;
+    background-color: #f5e5f5; /* Fondo pastel lila similar al de Legal Services */
+    color: #4a154b; /* Color del texto */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  }
+  
+  .hidden-services h2 {
+    font-size: 2em;
+    color: #d9534f; /* Color rojo para destacar el título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+  }
+  
+  .hidden-services ul {
+    list-style: none; /* Quitar puntos de lista */
+    padding: 0;
+  }
+  
+  .hidden-services li {
+    margin-bottom: 15px; /* Espaciado entre ítems de la lista */
+    font-size: 1.2em; /* Tamaño de fuente ligeramente mayor para los ítems */
+  }
+  
+  .hidden-services li::before {
+    content: '•'; /* Utilizar un punto como marcador de lista */
+    color: #d9534f; /* Color rojo del punto */
+    font-size: 1.5em; /* Tamaño del punto */
+    margin-right: 10px; /* Espacio entre el punto y el texto */
+    vertical-align: middle; /* Alineación vertical del punto */
+  }
+  

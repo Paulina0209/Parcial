@@ -1,0 +1,27 @@
+/* Header.css */
+
+header {
+  width: 100%; 
+  background-color: #f3c5e0; 
+  color: #4a154b;
+  padding: 20px; 
+  text-align: center; 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index: 1000; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  header h1 {
+    margin: 0; 
+    font-size: 2.5em; 
+    color: #4a154b; 
+  }
+  
+  header p {
+    margin: 10px 0 0; 
+    font-size: 1.2em; 
+    color: #6c4f6d; 
+  }
+  
